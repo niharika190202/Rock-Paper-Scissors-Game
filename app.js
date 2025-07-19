@@ -14,8 +14,7 @@ const genCompChoice = () => {
 }
 
 const drawGame = () => {
-    msg.innerText = "Game was draw. PLay again. 🤷 ";
-    msg.style.backgroundColor = "#75069d";
+    msg.innerText = "It's a draw! Play again 🤷";
 }
 
 const showWinner = (userWin, userChoice, compChoice) => {
@@ -23,13 +22,11 @@ const showWinner = (userWin, userChoice, compChoice) => {
         userScore++;
         userScoreUpdate.innerText = userScore;
         msg.innerText = `Congratulations!🎉. Your ${userChoice} beats ${compChoice}`;
-        msg.style.backgroundColor = "green";
     }
     else {
         compScore++;
         compScoreUpdate.innerText = compScore; 
         msg.innerText = `You lose 🙁. ${compChoice} beats your ${userChoice}`;
-        msg.style.backgroundColor = "red";
     }
 };
 
@@ -66,4 +63,14 @@ choices.forEach((choice) => {
         const userChoice = choice.getAttribute("id");
         playGame(userChoice);
     });
+});
+
+const resetBtn = document.querySelector("#reset-btn");
+
+resetBtn.addEventListener("click", () => {
+    userScore = 0;
+    compScore = 0;
+    userScoreUpdate.innerText = userScore;
+    compScoreUpdate.innerText = compScore;
+    msg.innerText = "Game reset! Play your move.";
 });
