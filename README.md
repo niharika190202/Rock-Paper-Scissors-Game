@@ -1,44 +1,49 @@
-# Rock-Paper-Scissors-Game
-This is a simple web-based Rock, Paper, Scissors game built using HTML, CSS, and JavaScript. Users can play against a computer opponent, with real-time updates of moves and scores.
+#  Rock Paper Scissors Game
 
-## Features
--  Interactive buttons for Rock, Paper, and Scissors.
--  Displays player's move and computer's move.
--  Real-time outcome display (win, lose, draw).
--  Dynamic score tracking.
--  Responsive design for various devices.
--  CSS animations for enhanced user experience.
-  
-## Technologies Used
--  HTML: Structure of the web application.
--  CSS: Styling and layout.
--  JavaScript: Game logic and interactivity.
+A simple, responsive Rock Paper Scissors web game built using **HTML**, **CSS**, and **JavaScript**.
 
-## Installation
-1. Clone the repository:<br>
-  `git clone https://github.com/yourusername/rock-paper-scissors.git`
-2. Navigate to the project directory: <br>
-   `cd rock-paper-scissors`
-   
-## Usage
+## 🎮 Live Demo
 
-1. Open the index.html file in your web browser. <br>
-2. Click on one of the buttons (Rock, Paper, Scissors) to make your move.<br>
-3. The computer will randomly generate its move.<br>
-4. The game will display both moves, the result of the round, and update the scores.
-<br>
+👉 [Play it here on Render](https://rock-paper-scissors-web-s9rf.onrender.com/)
 
-## File Structure
+---
 
-- `index.html`: The main HTML file containing the game structure.
-- `styles.css`: The CSS file for styling the game.
-- `script.js`: The JavaScript file containing the game logic.
+##  Features
 
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute as needed.
+- Interactive Rock, Paper, Scissors gameplay
+- Score tracking for user and computer
+- Responsive layout and hover effects
+- Beautiful gradient background and glowing image rings
+- Reset button to restart the game
+- Clean, readable UI using Google Fonts
 
-## Acknowledgments
-- Inspired by the classic Rock, Paper, Scissors game.
-- Thanks to all open-source contributors whose code helped in this project.
+---
 
+##  How It Works
 
+1. User selects rock, paper, or scissors
+2. Computer randomly selects its move
+3. Winner is decided using standard game rules
+4. Scoreboard updates automatically
+5. Reset button clears scores and restarts the message
+
+---
+##  Deployment
+
+This project is deployed using [Render](https://render.com) as a **static site**:
+- No build command
+- Publish directory: `.`
+
+---
+
+##  How to Run Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/niharika190202/rock-paper-scissors.git
+2. Open index.html in your browser.
+
+---
+## Author
+
+Made with  💜 by Niharika Yadav
